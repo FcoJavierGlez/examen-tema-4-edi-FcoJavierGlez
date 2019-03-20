@@ -1,12 +1,15 @@
 
 public class Gato {
 
-		protected Gato() {
+  private String maulla;
+
+  protected Gato() {
 				
 	}
 
 	void maullar() {
-		System.out.println("Miau");
+		maulla = "Miau";
+    System.out.println(maulla);
 	}
 
 }
